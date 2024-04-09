@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/yatch.svg" type="image/x-icon">
+    <title>Катер-катерина</title>
+
+</head>
+<body>
+    <header class="header none1">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-row">
+                    <div class="header__nav">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="menu-item"><a data-link="district">Какой сегодня день?</a></li>
+                                <li class="menu-item"><a data-link="catalog">Вас ждёт</a></li>
+                                <li class="menu-item"><a data-link="year">Ваш год</a></li>
+
+                                <li class="menu-item"><a data-link="fest">Праздники</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container into">
+            <h1>Катер-катерина маков цвет</h1>
+            <h1>Без тебя мне сказки в жизни нет</h1>
+            <h1>В омут головою, если не с тобою</h1>
+            <h1>Катер-Катерина, эх, душа</h1>
+            <h1>До чего ж ты Катя хороша</h1>
+            <h1>Ягода-малина, Катер-Катерина</h1>
+            <div class="canvas">
+                <div class="box_backgound">
+                    <div class="sea"></div>
+                    <div class="ship">
+                        <div class="smoke">
+                            <div class="smoke-1"></div>
+                            <div class="smoke-2"></div>
+                            <div class="smoke-3"></div>
+                        </div>
+                        <div class="ship_smokestack"></div>
+                        <div class="ship_window"></div>
+                    </div>
+                    <div class="sun-wrapper">
+                        <div class="sun">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="cloud cloud-1"></div>
+                    <div class="cloud cloud-2"></div>
+                    <div class="cloud cloud-3"></div>
+                    <div class="cloud cloud-4"></div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="benefits none1" id="district">
+            <div class="container">
+                <h2 class="title-2" style="margin-bottom: 15px;">Какой сегодня день?</h2>
+
+                <div class="container container">
+                    <div class="benefits__row">
+                        <div class="cardFlip" onclick="toggleCard(this)">
+                            <div class="front">
+                                <p>Посмотреть</p>
+                            </div>
+                            <div class="back">
+                                <img src="./img/1.jpg" alt="benefits" class="benefits__item-img">
+                                <p class="benefits__item-text">Пятница. День рожденья у тебя</p>
+                            </div>
+                        </div>
+
+                        <div class="cardFlip" onclick="toggleCard(this)">
+                            <div class="front">
+                                <p>Посмотреть</p>
+                            </div>
+                            <div class="back">
+                                <img src="./img/2.jpg" alt="benefits" class="benefits__item-img">
+                                <p class="benefits__item-text">Поздравляют твои лучшие друзья.</p>
+                            </div>
+                        </div>
+
+                        <div class="cardFlip" onclick="toggleCard(this)">
+                            <div class="front">
+                                <p>Посмотреть</p>
+                            </div>
+                            <div class="back">
+                                <img src="./img/3.jpg" alt="benefits" class="benefits__item-img">
+                                <p class="benefits__item-text">С утра подарки, телеграммы, звонкий смех,</p>
+                            </div>
+                        </div>
+
+                        <div class="cardFlip" onclick="toggleCard(this)">
+                            <div class="front">
+                                <p>Посмотреть</p>
+                            </div>
+                            <div class="back">
+                                <img src="./img/4.jpg" alt="benefits" class="benefits__item-img">
+                                <p class="benefits__item-text">Сегодня праздник для всех.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="apartments none1" id="catalog">
+            <div class="container">
+                <div class="apartments__title">
+                    <h2 class="title-2">Вас сегодня ждёт</h2>
+                </div>
+
+                <div class="apartments__cards">
+
+                    <a href="#!" class="card">
+                        <img class="card__img" src="./img/5.jpg">
+                        <h3 class="card__title">Вкусный тортик</h3>
+                    </a>
+
+                    <a href="#!" class="card">
+                        <img class="card__img" src="./img/6.jpg">
+                        <h3 class="card__title">Цветы-букеты</h3>
+                    </a>
+
+                    <a href="#!" class="card">
+                        <img class="card__img" src="./img/7.jpg">
+                        <h3 class="card__title">Поездка на шашлыки</h3>
+                    </a>
+
+                    <a href="#!" class="card">
+                        <img class="card__img" src="./img/8.jpg">
+                        <h3 class="card__title">Крепкий сон после всего этого</h3>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="cont" id="year">
+                <div class="sidebar">
+
+        
+                <div
+                    style="
+                    background: linear-gradient(253deg, rgba(209,101,0,1) 0%, rgba(88,36,19,1) 100%);
+                    "
+                >
+                    <h1>Хотела больше? </h1>
+                    <p>А надо было больше фоток выкладывать</p>
+                </div>
+        
+                <div
+                    style="
+                    background: linear-gradient(253deg, rgba(218,74,53,1) 0%, rgba(81,68,86,1) 100%);
+                    "
+                >
+                    <h1>Это было не просто смело</h1>
+                    <p>Это было пиздец как смело</p>
+                </div>
+                <div
+                    style="
+                    background: linear-gradient(253deg, rgba(212,70,100,1) 0%, rgba(240,1,59,1) 100%);
+                    "
+                >
+                    <h1>Екатерина</h1>
+                    <p>Культурно-просвещалкина</p>
+                </div>
+                <div
+                    style="
+                    background: linear-gradient(253deg, rgba(139, 167, 202) 0%, rgba(191, 208, 227) 100%);
+                    "
+                >
+                    <h1>Это ты на Танае</h1>
+                    <h3>и это ты отдыхала</h3>
+                    <p>Да, у тебя был отпуск и ты это не скрывала</p>
+                </div>
+                <div
+                    style="
+                    background: linear-gradient(253deg, rgba(138, 175, 201) 0%, rgba(56, 123, 139) 100%);
+
+                    "
+                >
+                    <h1>Курица не птица</h1>
+                    <p>Рица не заграница</p>
+                </div>
+                </div>
+                <div class="main-slide">
+                <div
+                    style="
+                    background-image: url('./img/11.jpg');
+                    "
+                ></div>
+                <div
+                    style="
+                    background-image: url('./img/12.jpeg');
+
+                    "
+                ></div>
+                <div
+                    style="
+                    background-image: url('./img/13.jpeg');
+                    "
+                ></div>
+                <div
+                    style="
+                    background-image: url('./img/14.jpeg');
+                    "
+                ></div>
+                <div
+                    style="
+                    background-image: url('./img/15.jpeg');
+                    "
+                ></div>
+
+                </div>
+                <div class="controls">
+                <button class="down-button">
+                    \/
+                </button>
+                <button class="up-button">
+                    ^
+                </button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-map none1" id="fest">
+            <div class="container">
+                <div class="section-map__title">
+                    <h2 class="title-2">Менее значимые праздники сегодня:</h2>
+                    <ul>
+                        <li>День космонавтики - но мы то знаем, что космос это ты</li>
+                        <li>Дeнь poждeния poк-н-poллa - совпадение?</li>
+                        <li>Вceмиpный дeнь xoмякa - можно официально заточить что-нибудь ночью</li>    
+                        <li>Нoчь Юpия - нужно найти какого-нибудь Юрия (желательно долгоНЕрукого)</li>    
+                        <li>Дeнь eдинcтвeннoгo peбёнкa </li>   
+                        <li>Дeнь жapeныx cэндвичeй c cыpoм</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="benefits">
+            <div class="container">
+                <h2 class="title-2">Пожелания:</h2>
+                <ul>
+                    <li>- Чтобы все лица мужсого пола не сводили глаз с танцпола пока ты там гордо танцуешь</li>
+                    <li>- чтобы мальчик поплыл, мальчик попал</li>
+                    <li>- не надельку до второго уехать в Комарово</li>
+                    <li>- Какоооооооооооооооооооооооооорина (на мотив песни Юфория)</li>
+                    <li>- Сьездить на дискотеку в соседнее село</li>
+                    <li>- быть девочкой в тренде, девочкой топ, чтобы все видели твой танцы, танцы в тик ток</li>
+                </ul>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer none1">
+        <div class="container">
+            <div class="footer__grid">
+                <p>Все права защищены и будут кусаться в случае их нарушения</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
